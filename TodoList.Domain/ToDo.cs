@@ -9,6 +9,7 @@ public class ToDo
     public DateTime? DueDate { get; set; }
     public Category Category { get; set; } = Category.Adventure;
     public bool IsActive { get; set; } = true;
+    public bool Overdue { get; set; } = false;
     public Status Status { get; set; } = Status.New;
 
 }
